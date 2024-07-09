@@ -1,36 +1,24 @@
- 
-//program to add n natural numbers
-import java.util.*;
-public class DayFive{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-       
+import java.util.Scanner;
+public class DayFive {
 
-        /*       
-        for (int i=1; i<=10; i++) {
-           
-            System.out.print(n); 
-            System.out.print("*");
-            System.out.print(i);
-            System.out.print("=");
-            System.out.println(n*i);     //Adding 0+i        
-        } */
-       /*Add n natural numbers */
-       /* 
-       int sum = 0;
-        for(int i=1; i<=n; i++){
-            sum=sum+i;
-        }
-        System.out.println(sum);
-        */
-        int sum = 1;
-        for(int i=1; i<=n; i++){
-            sum=sum*i;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);    /*this line create the Scanner object named sc, 
+                                                this is used to read the input from standard input stream (System.in)*/
+        
+        System.out.println("Dear user, Please Enter a number"); //taking input from user
+        
+        int n = sc.nextInt();   //input is intizer type and initlized in n variable
+
+        for (int i=0; i < n; i++) {
+            for (int j = 1;  j < n;  j++) {
+                System.out.print("*");
+                
+            }
+            System.out.println("*");
             
         }
-        System.out.print("fattoril of " + n +" is = ");
-        System.out.println(sum);
 
+
+        sc.close();
     }
 }
