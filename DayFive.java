@@ -7,6 +7,7 @@ public class DayFive{
         int n = sc.nextInt();
        
 
+        /*       
         for (int i=1; i<=10; i++) {
            
             System.out.print(n); 
@@ -14,8 +15,13 @@ public class DayFive{
             System.out.print(i);
             System.out.print("=");
             System.out.println(n*i);     //Adding 0+i        
-        }
+        } */
        
+        int sum = 0;
+        for(int i=1; i<=n; i++){
+            sum=sum+i;
+        }
+        System.out.println(sum);
 
     }
 }
