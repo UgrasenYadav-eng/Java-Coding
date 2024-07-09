@@ -16,11 +16,20 @@ public class DayFive{
             System.out.print("=");
             System.out.println(n*i);     //Adding 0+i        
         } */
-       
-        int sum = 0;
+       /*Add n natural numbers */
+       /* 
+       int sum = 0;
         for(int i=1; i<=n; i++){
             sum=sum+i;
         }
+        System.out.println(sum);
+        */
+        int sum = 1;
+        for(int i=1; i<=n; i++){
+            sum=sum*i;
+            
+        }
+        System.out.print("fattoril of " + n +" is = ");
         System.out.println(sum);
 
     }
