@@ -12,5 +12,5 @@ public class DaySix {
             System.out.println();
             
         }
-    }
+    } //triangle
 }
