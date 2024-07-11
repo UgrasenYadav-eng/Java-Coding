@@ -3,10 +3,13 @@ public class DaySeven {
         int u = 4;
         for (int i = 0; i <= u; i++) {
             for (int j = 1; j <=i; j++){
-                System.out.print(j + " ");              
-            }
-            for (int j = 0; j <=u-i; j++) {
-                System.out.print(" ");                
+                int sum =i+j;
+                if (sum % 2== 0) {
+                    System.out.print("1");
+                }
+                    else {
+                        System.out.print("0");
+                    }              
             }
             System.out.println();
         }
