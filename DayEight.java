@@ -1,18 +1,19 @@
 import java.util.Scanner;
 public class DayEight {
 
-    public static int mulOfTwoNum(int a, int b){
-        int mul = a * b;
-        return mul;
+    public static void printFactorial(int a){
+        int factorial = 1;
+        for (int i = a; i >= 1; i--) {
+            factorial = factorial * i;            
+        }
+        System.out.println(factorial);
     }
     //main function start from here
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        int b = sc.nextInt();
+        printFactorial(a);
 
-        // calling the function
-        int mul = mulOfTwoNum(a, b);
-        System.out.println("Multiplication of the two numbers are :" + mul);
+       sc.close();
     }
 }
