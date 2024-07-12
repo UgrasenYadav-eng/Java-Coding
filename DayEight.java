@@ -1,15 +1,16 @@
-
 import java.util.Scanner;
-
 public class DayEight {
 
-    public static void printMyName(String name){
-        System.out.println(name);
-        return;
+    public static int addTwoNum(int a, int b){
+    int sum = a + b;
+    return sum;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        printMyName(name);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int sum= addTwoNum(a, b);
+        System.out.println("Addition of two numbers are =" + sum);
     }
-}
+    }
