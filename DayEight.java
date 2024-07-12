@@ -1,21 +1,24 @@
 import java.util.Scanner;
 public class DayEight {
 
-    public static int averageOfNum(int a, int b, int c){
-        int avr = (a + b + c) / 3;
-        return avr;        
+    public static int addingOddNums(int n){
+        int odd = 0;
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 != 0) {
+                odd = odd + i;    // Adding the return values and assigning that value in odd predefined variable             
+            }
+        }
+        return odd;        
         }
         
     //main function start from here
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter three number ;");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt(); 
+        int n = sc.nextInt();
         
-        int avr= averageOfNum(a, b, c);
-        System.out.println("the average is :" + avr);
+        int odd= addingOddNums(n);
+        System.out.println("Addition of 0 to all odds numbers are :" + odd);
 
        sc.close();
     }
