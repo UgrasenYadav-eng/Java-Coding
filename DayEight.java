@@ -1,25 +1,20 @@
 import java.util.Scanner;
 public class DayEight {
 
-    public static int addingOddNums(int n){
-        int odd = 0;
-        for (int i = 1; i <= n; i++) {
-            if (i % 2 != 0) {
-                odd = odd + i;    // Adding the return values and assigning that value in odd predefined variable             
-            }
+    public static int greaterOfTwo(int a, int b){
+        // function for checking which one is greater in both the given nembers
+        if (a > b) {return a;            
         }
-        return odd;        
-        }
-        
-    //main function start from here
+        else{return b;}
+    }
+    //main function will start from here
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter three number ;");
-        int n = sc.nextInt();
-        
-        int odd= addingOddNums(n);
-        System.out.println("Addition of 0 to all odds numbers are :" + odd);
+        System.out.println("Enter the two input nembers");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-       sc.close();
+        int Greater = greaterOfTwo(a, b);
+        System.out.println(Greater + " is the greater of these two inputs");
     }
 }
