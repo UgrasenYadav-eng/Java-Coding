@@ -5,6 +5,25 @@ public class DayNine{
         String fristName = "Ugrsen";
         String lastName = "Yadav";
         String fullName = fristName + " " + lastName;
-        System.out.println(fullName.length());
+
+        /* printing lenght of the string in this manner:- 
+         * U
+         * g
+         * r
+         * a
+         * s
+         * e
+         * n 
+         * Y
+         * a
+         * d
+         * a
+         * v
+         */
+
+        for (int i = 0; i < fullName.length(); i++) {
+
+        System.out.println(fullName.charAt(i));
+        }
     }
 }
