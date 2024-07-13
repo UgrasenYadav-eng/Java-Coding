@@ -46,10 +46,14 @@ public class DayNine{
             number [i] = sc.nextInt();            
         }
 
+        int u = sc.nextInt(); // this will be the value which we have to search from the array.
+
         // Output
 
         for (int i = 0; i < size; i++) {
-            System.out.println(number[i]);           
+            if ( number [i] == u) {
+                System.out.println( " u is founded in the index: " + i );
+            }           
         }
 
     }
