@@ -1,4 +1,4 @@
-public class DayNine {
+/* public class DayNine {
     public static void main(String args[]){
         int marks [] =new int[3];
         // int [] marks = new int[3];
@@ -11,11 +11,24 @@ public class DayNine {
         System.out.println(marks[0]);
     */
                     // OR
-    
+/*    
         for (int i = 0; i < 3; i++) {
             System.out.println(marks[i]);            
         }           
     }
 
     
+}
+*/
+
+
+public class DayNine{
+    public static void main(String[] args) {
+        int marks [] = {97, 98, 92};
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println(marks [i] + ",");
+            
+        }
+    }
 }
