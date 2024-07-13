@@ -21,7 +21,7 @@
 }
 */
 
-
+/*
 public class DayNine{
     public static void main(String[] args) {
         int marks [] = {97, 98, 92};
@@ -30,5 +30,27 @@ public class DayNine{
             System.out.println(marks [i] + ",");
             
         }
+    }
+}  */
+
+import java.util.*;
+public class DayNine{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int number [] = new int [size];
+
+        //Input
+
+        for (int i = 0; i < size; i++) {
+            number [i] = sc.nextInt();            
+        }
+
+        // Output
+
+        for (int i = 0; i < size; i++) {
+            System.out.println(number[i]);           
+        }
+
     }
 }
