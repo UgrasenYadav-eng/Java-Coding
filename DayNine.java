@@ -5,6 +5,6 @@ public class DayNine{
         String fristName = "Ugrsen";
         String lastName = "Yadav";
         String fullName = fristName + " " + lastName;
-        System.out.println(fullName);
+        System.out.println(fullName.length());
     }
 }
