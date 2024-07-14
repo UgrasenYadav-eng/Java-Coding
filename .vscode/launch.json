@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DayTen",
+            "request": "launch",
+            "mainClass": "DayTen",
+            "projectName": "Java Coding_d524d29e"
+        },
+        {
+            "type": "java",
             "name": "DayNine",
             "request": "launch",
             "mainClass": "DayNine",
