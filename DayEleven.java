@@ -4,8 +4,9 @@ public class DayEleven {
         int pos = 2;
         int bitMask= 1<<pos;
       
-      int Uggu = bitMask | a;
-        System.out.println(Uggu);            
+      int Not = ~(bitMask) & a;
+      int Prakriti = Not ;
+        System.out.println(Prakriti);            
         
     }
 }
